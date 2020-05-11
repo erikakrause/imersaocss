@@ -1,0 +1,38 @@
+body {
+  background-image: url(https://marketplace.canva.com/EAD297uecnM/2/0/1600w/canva-rainbow-gradient-pink-orange-and-blue-zoom-virtual-background-VwJMC37j5jQ.jpg);
+  background-size: auto;
+  font-family: Calibri;
+  height: 100hv;
+}
+
+.menu {
+  background-color: white;
+  font-size: 20px;
+}
+
+.menu ul {
+  display: flex;  
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+} 
+
+.site-title, .site-subtitle {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.site-subtitle {
+  font-style: italic;
+}
+
