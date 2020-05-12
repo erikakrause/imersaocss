@@ -14,24 +14,31 @@ body {
 }
 
 @media (min-width: 400px) {
-  body{
-    font-size: 14px;
+  body {
+    font-size: 18px;
   }
 }
 
 @media (min-width: 600px) {
-  body{
-    font-size: 18px;
+  body {
+    font-size: 22px;
   }
-  
- .menu a {
-  display: block;
-  padding: 10px 20px;
- }
-  
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .menu {
   background-color: whitesmoke;
   font-size: 20px;
+  position: fixed;
+  top: 0;
+  width: 100wv;
 }
 
 .menu ul {
@@ -43,23 +50,24 @@ body {
   list-style: none;
 }
 
-a {
+.menu a {
   color: black;
+  display: block;
+  padding: 10px;
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-} 
-
-.site-title, .site-subtitle {
+.site-title {
   color: black;
-  padding: 0 0 0 1em;
   text-align: center;
 }
 
 .site-subtitle {
+  color: silver;
   font-style: italic;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 2em;
 }
 
 .social-media {
@@ -76,6 +84,7 @@ a:hover {
   font-size: 18px;
   font-weight: bold;
   text-align: center;
+
 }
 
 /*PORTIFÓLIO*/
@@ -84,6 +93,16 @@ a:hover {
   display: inline;
   flex-direction: column;
   height: 180px;
+  margin: 0 1.5%;
   padding: 20px 0;
   width: 180px;
+}
+
+.texto-portifolio {
+  display: inline-block;
+  text-align: center;
+  width: 30%
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px; 
 }
