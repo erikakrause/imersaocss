@@ -87,6 +87,10 @@ header {
 
 }
 
+span{
+ border-bottom:solid 1px #979797;
+}
+
 /*PORTIFÓLIO*/
 
 .img-portifolio {
@@ -97,12 +101,8 @@ header {
   width: 180px;
 }
 
-span {
-  border-bottom: solid 1px #979797;
-}
-
-.texto-portifolio {
-  display: inline-block; 
+.texto-portifolio, figcaption {
+  display: block; 
   font-family: Calibri;
   font-size: 18px;
   font-weight: 300;
