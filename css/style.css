@@ -1,12 +1,12 @@
 body {
-  background-image: url(https://marketplace.canva.com/EAD297uecnM/2/0/1600w/canva-rainbow-gradient-pink-orange-and-blue-zoom-virtual-background-VwJMC37j5jQ.jpg);
-  background-size: auto;
-  font-family: Calibri;
+  background-image: url(https://www.ajetur.com.br/wp-content/uploads/2017/11/background-site.jpg);
+  background-size: auto 100hv;
+  font-family: Bitter;
   height: 100hv;
 }
 
 .menu {
-  background-color: white;
+  background-color: whitesmoke;
   font-size: 20px;
 }
 
@@ -28,7 +28,7 @@ a:hover {
 } 
 
 .site-title, .site-subtitle {
-  color: whitesmoke;
+  color: black;
   text-align: center;
 }
 
@@ -36,3 +36,10 @@ a:hover {
   font-style: italic;
 }
 
+.social-media {
+  height: 1.5rem;
+  box-sizing: inherit;
+  margin: 0px 8px 0px 0px;
+  text-decoration:underline;
+
+}
