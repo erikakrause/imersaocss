@@ -43,10 +43,8 @@ a:hover {
   font-style: italic;
 }
 
-.social-media {
-  height: 1.5rem;
-  box-sizing: inherit;
-  margin: 0px 8px 0px 0px;
-  text-decoration:underline;
-
+/*portifólio*/
+.img-portigolio {
+  height: 180px;
+  width: 180px;
 }
