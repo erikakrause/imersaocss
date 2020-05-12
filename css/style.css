@@ -54,6 +54,7 @@ a:hover {
 
 .site-title, .site-subtitle {
   color: black;
+  padding: 0 0 0 1em;
   text-align: center;
 }
 
@@ -83,5 +84,6 @@ a:hover {
   display: inline;
   flex-direction: column;
   height: 180px;
+  padding: 20px 0;
   width: 180px;
 }
