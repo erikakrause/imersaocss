@@ -75,6 +75,7 @@ header {
   box-sizing: inherit;
   font-size: 16px;
   margin: 0px 8px 0px 0px;
+  padrinho: 30px;
   text-decoration:underline;
 
 }
@@ -83,6 +84,7 @@ header {
   display: block;
   font-family: Calibri;
   font-size: 18px;
+  padrinho: 50px;
   text-align: center;
 
 }
