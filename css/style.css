@@ -35,7 +35,7 @@ header {
 
 .menu {
   background-color: whitesmoke;
-  font-size: 20px;
+  font-size: 20px;  
   position: fixed;
   top: 0;
   width: 100wv;
@@ -80,9 +80,9 @@ header {
 }
 
 .descritivo {
-  font-family: Bitter;
+  display: block;
+  font-family: Calibri;
   font-size: 18px;
-  font-weight: bold;
   text-align: center;
 
 }
@@ -91,18 +91,23 @@ header {
 
 .img-portifolio {
   display: inline;
-  flex-direction: column;
+  float: left;
   height: 180px;
-  margin: 0 1.5%;
-  padding: 20px 0;
+  margin: 0 20px 20px 0;
   width: 180px;
 }
 
+span {
+  border-bottom: solid 1px #979797;
+}
+
 .texto-portifolio {
-  display: inline-block;
-  text-align: center;
-  width: 30%
-  vertical-align: top;
-  margin: 0 1.5%;
-  padding: 30px 20px; 
+  display: inline-block; 
+  font-family: Calibri;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 1em;
+  text-align: justify; 
+  vertical-align: baseline; 
+  width: 30% 
 }
