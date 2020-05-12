@@ -56,14 +56,15 @@ a:hover {
 
 .descritivo {
   font-family: Open Sans;
-  font-size; 20px;
+  font-size: 20px;
   text-align: center;
 
 }
+
 /*PORTIFÓLIO*/
 
 .img-portifolio {
-  display: flex;
+  display: inline;
   flex-direciton: column;
   height: 180px;
   width: 180px;
