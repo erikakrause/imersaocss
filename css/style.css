@@ -13,6 +13,22 @@ body {
   height: 100hv;
 }
 
+@media (min-width: 400px) {
+  body{
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 600px) {
+  body{
+    font-size: 18px;
+  }
+  
+ .menu a {
+  display: block;
+  padding: 10px 20px;
+ }
+  
 .menu {
   background-color: whitesmoke;
   font-size: 20px;
