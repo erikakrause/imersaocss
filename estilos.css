@@ -75,10 +75,11 @@ header {
   text-align: center; 
 }
 
-.perfil 
+.perfil{
   height: 180px;
+  text-align: center;
+  vertical-align: middle;
   width: 180px;
-}
 
 h3 {
  font-family: 'Sofia', cursive;
