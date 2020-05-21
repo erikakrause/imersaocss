@@ -24,15 +24,6 @@ body {
   }
 }
 
-header {
-  background-image: url(https://www.ajetur.com.br/wp-content/uploads/2017/11/background-site.jpg);
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 .menu {
   background-color: whitesmoke;
   font-size: 20px;  
@@ -57,9 +48,19 @@ header {
   text-decoration: none;
 }
 
+header {
+  background-image: url(https://www.ajetur.com.br/wp-content/uploads/2017/11/background-site.jpg);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .site-title {
   color: black;
   font-family: 'Cookie', cursive;
+  font-siza:60px;
   text-align: center;
 }
 
@@ -69,9 +70,17 @@ header {
   font-weight: lighter;
   text-align: center;
   font-size: 2em;
+  line-align: center;
 }
 
-h2 {
+.perfil{
+  height: 180px;
+  text-align: center;
+  vertical-align: middle;
+  width: 180px;
+}
+
+h3 {
   font-family: 'Sofia', cursive;
   font-size: 30px;
   margin: 20px;
@@ -88,15 +97,31 @@ h2 {
 
 /*PORTIFÓLIO*/
 
+.grid {
+  display: grid;
+  gap: 1em;
+}
+
 .img-portifolio {
   display: inline;
   float: left;
   height: 180px;
-  margin: 0 20px 20px 0;
+  margin-bottom: 2em;
   width: 180px;
 }
 
-.texto-portifolio, figcaption {
+figcaption {
+  display: block; 
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 1em;
+  text-align: justify; 
+  vertical-align: baseline; 
+  width: 30% 
+}
+
+.texto-portifolio, {
   display: block; 
   font-family: 'Baloo Chettan 2', cursive;
   font-size: 18px;
@@ -106,3 +131,5 @@ h2 {
   vertical-align: baseline; 
   width: 30% 
 }
+
+
