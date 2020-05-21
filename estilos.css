@@ -10,6 +10,7 @@
 body {
   background-color: white;
   background-size: auto 100hv;
+  font-family: Bitter;
   height: 100hv;
 }
 
@@ -71,7 +72,8 @@ header {
   font-size: 2em;
   font-weight: lighter;
   line-height: 1.5em;
-  text-align: center; 
+  text-align: center;
+ 
 }
 
 .perfil{
@@ -79,19 +81,20 @@ header {
   text-align: center;
   vertical-align: middle;
   width: 180px;
-
-h3 {
- font-family: 'Sofia', cursive;
- font-size: 30px;
- padding: 2em;
- text-align: center;
 }
 
+h3 {
+    font-family: 'Sofia', cursive;
+    font-size: 30px;
+    padding: 2em;
+    text-align: center;
+}
 .descritivo {
   display: block;
   font-family: 'Baloo Chettan 2', cursive;
   font-size: 18px;
   text-align: center ;
+
 }
 
 /*PORTIFÓLIO*/
@@ -100,17 +103,34 @@ h3 {
   display: grid;
   gap: 1em;
 }
- 
+
+@media (min-width: 560px) {
+  .portfolio .grid {
+    grid-template-columns: 240px 240px;
+  }
+}
+
+@media (min-width: 880px) {
+  .portfolio .grid {
+    grid-template-columns: repeat(3, 260px);
+    align-content: center;
+    justify-content: center;
+    height: calc(100vh - 8em - 48px);
+  }
+}
 .img-portifolio {
   display: inline;
   float: left;
   height: 180px;
+  margin-bottom: 2em;
   width: 180px;
-  object-fit: cover;
-  object-position: left bottom;
 }
 
- figcaption {
+figure {
+
+}
+ figcaption 
+ {
   display: block; 
   font-family: 'Baloo Chettan 2', cursive;
   font-size: 18px;
