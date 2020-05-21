@@ -1,76 +1,105 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Érika Moreno - Front-end Developer</title>
-  <link rel="stylesheet" href="estilos.css">
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Cookie&family=Sofia&display=swap" rel="stylesheet">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Érika Moreno</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Cookie&family=Sofia&display=swap" rel="stylesheet">
+   >
 
-<body>
-  <header> 
-    <nav class="menu">
-      <ul>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Portifólio</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
-    </nav>
-    <div>
-      <h1 class="site-title">Érika Gonçalves Krause Moreno</h1>
-      <h2 class="site-subtitle"> Secretaria Executiva</h2>  
-      <h2 class="site-subtitle"> Front-end Developer</h2>  
-   </div>
- </header>
-
-<section>
-   <h3>Sobre</h3>
-   <img class="perfil" src="img/perfil.png" alt="Foto Perfil">
-   <p class="descritivo">Olá, sou a Érika, formada em Secretariado Executivo pela UEL e Técnica em Logística pelo SENAC-PR, Dona de casa, esposa e mãe.<br>
-     Atuei um período na área , tenho experiência em assessoria a gerentes, rotinas adminsitrativas e vendas.<br> Busco por aprendizado contínuo e aperfeiçoamento de competências;<br>
-     A primeira vez que vi uma menina na área de TI foi em 2014 e fiquei "espantada" por não terem homens no setor.<br> 
-     Atualmente iniciei os estudos em Programação e tenho me dedicado a cursos online da Alura.
-    <br>Foi amor ao primeiro 'Helo World'.
-</section>
-
-  <section>
-    <h3>Portifólio</h3>
-    <div class="grid">
-      <figure> 
-        <img class= "img-portifolio" src="img/logopb.png" alt="Barbearia"></figure><figcaption>Barbearia Alura<br> Alura, 2020-03</figcaption>
-        <p class="texto-portifolio">
-        Web Site de uma barbearia, onde  é possivel verificar os produtos oferecidos e seus respectivos valores.  
-        <a href="https://erikakrause.github.io/Barbearia-Alura/">Website</a></p>
-    
-      <figure>
-        <img class="img-portifolio" src="img/pg-pessoal.jpg" alt="Página Pessoal"></figure><figcaption>Página Pessoal<br>Alura, 2020-05</figcaption>
-        <p class="texto-portifolio">
-        Web Site Página Pessoal, onde é possivel encontrar meus projetos realizados e um breve currículo. 
-        Projeto desenvolvido com a Alura Cursos Online - Imerssão ao CSS.</p  >
-    
-      <figure>
-        <img class="img-portifolio" src="img/artigo.jpg" alt="Artigo"></figure><figcaption>Projeto Pessoal<br>CONSEC, 2012</figcaption>
-        <p class="texto-portifolio">
-        Artigo acadêmico: "Secretaria Modelo: avaliação das atividades interdisciplinares da Secretaria Modelo na Escola Profissional e Social do Menor de Londrina - Paraná."</p>
+    <script
+      src="https://kit.fontawesome.com/6d6952c5be.js"
+      crossorigin="anonymous"
+   ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <ul class="container">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#portfolio">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="titulo">
+        <h1 class="site-title">Érika Gonçalves Krause Moreno</h1>
+        <h2 class="site-subtitle">Secretaria Executiva</h2>
+        <h2 class="site-subtitle">Front-end Developer</h2>
       </div>
-      </section>
+    </header>
+    <section class="sobre container" id="sobre">
+      <h2>Sobre</h2>
+
+      
+        <img class="avatar"   src="img/perfil.png" alt="Érika Moreno">
     
-    <section class="contato">
-      <h3>Contato</h3>
-    <div class="grid icons">
-     
-    <a target="_blank" href="https://linkedin.com/in/erika-gkmoreno">
-      Linkedin
-    </a>
-    <a target="_blank" href="https://github.com/erikakrause">
-      Github
-    </a>
-    <a target="_blank" href="https://www.facebook.com/erika.gkmoreno">
-      Facebook
-    </a>
-    <a target="_blank" href="mailto:erika.kmoreno@gmail.com">
-      E-mail
-    </a>
-  </div>
-</section>
+
+      <p>
+        Olá, sou a Érika, formada em Secretariado Executivo pela UEL e Técnica em Logística pelo SENAC-PR, Dona de casa, esposa e mãe.<br>
+        Atuei um período na área , tenho experiência em assessoria a gerentes, rotinas adminsitrativas e vendas.<br> Busco por aprendizado contínuo e aperfeiçoamento de competências;<br>
+        Atualmente iniciei os estudos em Programação e tenho me dedicado aos cursos online da Alura.
+       <br>Foi amor ao primeiro 'Helo World'.
+      </p>
+
+      <p>
+        Este site foi construído durante a
+        <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura</a>
+      </p>
+    </section>
+    <section class="portfolio container" id="portfolio">
+      <h2>Projetos</h2>
+
+      <div class="grid">
+		  
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front"><figcaption>Barbearia Alura</figcaption>
+              <img class="img-portfolio" src="img/barbearia.png" alt="Barbearia Alura">
+            </figure>
+            <div class="card-back">
+              <p> Web Site de uma barbearia,<br> onde  é possivel verificar<br> os produtos oferecidos e seus<br> respectivos valores.</hp>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front"><figcaption>Imersão CSS</figcaption>
+              <img class="img-portfolio" src="img/pg-pessoal.png" alt="Página Pessoal">
+            </figure>
+            <div class="card-back">
+              <p> Web Site de uma Página Pessoal,<br>onde é possivel encontrar<br> meus projetos realizados<br> e um breve currículo.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front"><figcaption>Artigo Acadêmico</figcaption>
+              <img class="img-portfolio" src="img/artigo.png" alt="Artigo">
+            </figure>
+            <div class="card-back">
+				      <p>"Secretaria Modelo: avaliação das<br> atividades interdisciplinares da <br>Secretaria Modelo na Escola Profissional <br>e Social do Menor de Londrina <br> Paraná</h3>
+            </div>
+          </div>
+      </div>
+
+    </section>
+    <section class="contato container" id="contato">
+      <h2>Contato</h2>
+
+      <div class="grid icons">
+        <a target="_blank" href="https://github.com/erikakrause">
+          <i class="fab fa-github"></i>
+        </a>
+        <a target="_blank" href="https://linkedin.com/in/erika-gkmoreno">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a target="_blank" href="https://instagram.com/erikagkrause">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </section>
+  </body>
+</html>
