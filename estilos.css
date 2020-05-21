@@ -50,6 +50,15 @@ body {
   text-decoration: none;
 }
 
+a {
+  color: teal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 header {
   background-image: url(https://www.ajetur.com.br/wp-content/uploads/2017/11/background-site.jpg);
   height: 100vh;
@@ -101,13 +110,29 @@ h3 {
   display: grid;
   gap: 1em;
 }
+  
+  @media (min-width: 560px) {
+  .portfolio .grid {
+    grid-template-columns: 240px 240px;
+  }
+}
+
+@media (min-width: 880px) {
+  .portfolio .grid {
+    grid-template-columns: repeat(3, 260px);
+    align-content: center;
+    justify-content: center;
+    height: calc(100vh - 8em - 48px);
+  }
+}
 
 .img-portifolio {
   display: inline;
   float: left;
   height: 180px;
-  margin-bottom: 2em;
   width: 180px;
+  object-fit: cover;
+  object-position: left bottom;
 }
 
  figcaption {
