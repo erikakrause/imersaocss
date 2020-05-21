@@ -7,9 +7,8 @@
 
 /*PRINCIPAL*/
 body {
-  background-image: url(https://www.ajetur.com.br/wp-content/uploads/2017/11/background-site.jpg);
+  backgroud-color: white;
   background-size: auto 100hv;
-  font-family: Bitter;
   height: 100hv;
 }
 
@@ -26,7 +25,8 @@ body {
 }
 
 header {
-  height: 50vh;
+  background-image: url(https://www.ajetur.com.br/wp-content/uploads/2017/11/background-site.jpg);
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,38 +59,31 @@ header {
 
 .site-title {
   color: black;
+  font-family: 'Cookie', cursive;
   text-align: center;
 }
 
 .site-subtitle {
   color: silver;
-  font-style: italic;
+  font-family: 'Cookie';
   font-weight: lighter;
   text-align: center;
   font-size: 2em;
 }
 
-.social-media {
-  height: 1.5rem;
-  box-sizing: inherit;
-  font-size: 16px;
-  margin: 0px 8px 0px 0px;
-  padrinho: 30px;
-  text-decoration:underline;
-
+h2 {
+  font-family: 'Sofia', cursive;
+  font-size: 30px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
 }
 
 .descritivo {
   display: block;
-  font-family: Calibri;
+  font-family: 'Baloo Chettan 2', cursive;
   font-size: 18px;
-  padrinho: 50px;
   text-align: center;
-
-}
-
-span{
- border-bottom:solid 1px #979797;
 }
 
 /*PORTIFÓLIO*/
@@ -105,7 +98,7 @@ span{
 
 .texto-portifolio, figcaption {
   display: block; 
-  font-family: Calibri;
+  font-family: 'Baloo Chettan 2', cursive;
   font-size: 18px;
   font-weight: 300;
   margin: 1em;
