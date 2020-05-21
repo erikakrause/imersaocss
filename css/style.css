@@ -72,29 +72,26 @@ header {
   font-size: 2em;
   font-weight: lighter;
   line-height: 1.5em;
-  text-align: center;
- 
+  text-align: center; 
 }
 
-.perfil{
+.perfil 
   height: 180px;
-  text-align: center;
-  vertical-align: middle;
   width: 180px;
 }
 
 h3 {
-    font-family: 'Sofia', cursive;
-    font-size: 30px;
-    padding: 2em;
-    text-align: center;
+ font-family: 'Sofia', cursive;
+ font-size: 30px;
+ padding: 2em;
+ text-align: center;
 }
+
 .descritivo {
   display: block;
   font-family: 'Baloo Chettan 2', cursive;
   font-size: 18px;
   text-align: center ;
-
 }
 
 /*PORTIFÓLIO*/
@@ -112,11 +109,7 @@ h3 {
   width: 180px;
 }
 
-figure {
-
-}
- figcaption 
- {
+ figcaption {
   display: block; 
   font-family: 'Baloo Chettan 2', cursive;
   font-size: 18px;
