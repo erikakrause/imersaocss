@@ -6,9 +6,11 @@
 }
 
 /*PRINCIPAL*/
+
 body {
-  backgroud-color: white;
+  background-color: white;
   background-size: auto 100hv;
+  font-family: Bitter;
   height: 100hv;
 }
 
@@ -59,18 +61,19 @@ header {
 
 .site-title {
   color: black;
-  font-family: 'Cookie', cursive;
-  font-siza:60px;
   text-align: center;
+  font-family: 'Cookie', cursive;
+  font-size: 60px;  
 }
 
 .site-subtitle {
   color: silver;
   font-family: 'Cookie';
-  font-weight: lighter;
-  text-align: center;
   font-size: 2em;
-  line-align: center;
+  font-weight: lighter;
+  line-height: 1.5em;
+  text-align: center;
+ 
 }
 
 .perfil{
@@ -81,18 +84,17 @@ header {
 }
 
 h3 {
-  font-family: 'Sofia', cursive;
-  font-size: 30px;
-  margin: 20px;
-  padding: 20px;
-  text-align: center;
+    font-family: 'Sofia', cursive;
+    font-size: 30px;
+    padding: 2em;
+    text-align: center;
 }
-
 .descritivo {
   display: block;
   font-family: 'Baloo Chettan 2', cursive;
   font-size: 18px;
-  text-align: center;
+  text-align: center ;
+
 }
 
 /*PORTIFÓLIO*/
@@ -110,7 +112,11 @@ h3 {
   width: 180px;
 }
 
-figcaption {
+figure {
+
+}
+ figcaption 
+ {
   display: block; 
   font-family: 'Baloo Chettan 2', cursive;
   font-size: 18px;
@@ -119,9 +125,9 @@ figcaption {
   text-align: justify; 
   vertical-align: baseline; 
   width: 30% 
-}
+ }
 
-.texto-portifolio, {
+.texto-portifolio {
   display: block; 
   font-family: 'Baloo Chettan 2', cursive;
   font-size: 18px;
@@ -132,4 +138,4 @@ figcaption {
   width: 30% 
 }
 
-
+/*CONTATO*/
