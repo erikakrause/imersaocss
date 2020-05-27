@@ -6,7 +6,7 @@
 }
 
 body {
-  
+  background-image: url(http://seatcouros.com.br/wp-content/uploads/2017/11/background-cinza.png);
   background-size: auto 100vh; 
   font-family: 'Baloo Chettan 2', cursive;
   height: 100vh;
@@ -38,7 +38,6 @@ body {
 }
 
 header {
-  background-image: url(https://www.ajetur.com.br/wp-content/uploads/2017/11/background-site.jpg);
   height: 100vh;
   display: flex;
   justify-content: center;
