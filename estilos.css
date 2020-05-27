@@ -105,9 +105,9 @@ a:hover {
 }
 
 .site-subtitle {
-color: silver;
+color: grey;
  font-style: italic;
- font-family: 'Secramento', cursive;
+ font-family: 'Sacramento', cursive;
  font-size: 2em;
  line-height: 1.8em;
 }
