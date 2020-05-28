@@ -156,6 +156,7 @@ a:hover {
 }
 
 .avatar {
+  border-radius: 50%;
   height: 180px;
   margin-left: 2em;
   width: 180px;
