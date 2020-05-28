@@ -205,7 +205,7 @@ a:hover {
 .card {
   position: relative;
   transform-style: preserve-3d;
-  transition: transform 3s;
+  transition: transform 1s;
 }
 
 .card-front, 
@@ -241,7 +241,7 @@ a:hover {
 }
 
 .copyright {
-  font-size: 13px;
+  font-size: 16px;
   text-align: center;
 }
 
