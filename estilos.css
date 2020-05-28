@@ -223,7 +223,7 @@ a:hover {
   font-size: 18px;
   justify-content: center;
   background-color: rgba(255, 255, 255, .7);
-  height: 180px;
+  height: 300px;
   width: 100%;
   transform: rotateY(180deg);
 }
@@ -233,7 +233,7 @@ a:hover {
 }
 
 .img-portfolio {
-  height: 180px;
+  height: 300px;
   width: 100%;
   object-fit: cover;
   object-position: left bottom;
