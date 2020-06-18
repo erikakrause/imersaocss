@@ -9,7 +9,7 @@ body {
   background-color: #f3f3f3;
   background-size: auto 100vh; 
   font-family: 'Bitter', serif;
-  height: 200vh;
+  height: 100vh;
   font-size: 12px;
 }
 
@@ -110,6 +110,20 @@ a:hover {
  line-height: 1.8em;
 }
 
+.media {
+  border-bottom: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.favicon {
+  align-content: middle;
+  margin: 0 0 8px 0;
+  height: 1.5rem;
+  width: 100px;
+}
+
 .sobre,
 .contato,
 .portfolio {
@@ -143,26 +157,19 @@ a:hover {
   text-align: justify;
 }
 
-.sobre a {
-  color:black;
-  text-decoration: underline;
-}
 
-.sobre a:hover {
-  background-color: black;
-  text-decoration: none;
-  color: magenta;
-}
 
 .avatar {
+  background-size: cover;
   border-radius: 50%;
-  float: c
+  display: block;
   height: 200px;
-  margin-top: 3em;
+  margin-bottom: 16px;
+  position: relative;
   width: 200px;
 }
-.sobre {
 
+.sobre {
   margin-left: 2em;
 }
 
@@ -175,7 +182,7 @@ a:hover {
 
 .portfolio .grid {
   display: grid;
-  gap: 2em;
+  gap: 5em;
 }
 
 @media (min-width: 560px) {
@@ -193,8 +200,13 @@ a:hover {
   }
 }
 
+figcaption {
+  padding: 8px;
+  text-align: center;
+}
+
 .flip-card {
-  height: 400px;
+  height: 200px;
   perspective: 1000px;
 }
 
@@ -214,17 +226,17 @@ a:hover {
   left: 0;
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 250px;
 }
 
 .card-back {
   display: flex;
   align-items: center;
-  font-size: 18px;
+  font-size: 17px;
   justify-content: center;
   background-color: rgba(255, 255, 255, .7);
-  height: 400px;
-  width: 400px;
+  height: 250px;
+  width: 250px;
   transform: rotateY(180deg);
 }
 
@@ -233,36 +245,10 @@ a:hover {
 }
 
 .img-portfolio {
-  height: 400px;
-  width: 400px;
-  object-fit: cover;
-  object-position: left bottom;
+  height: 250px;
+  width: 250px;
+  object-fit: fill;
+  object-position: center;
   transition: transform 500ms;
 }
 
-.copyright {
-   font-family: 'Bitter', serif;
-    font-size: 20px;
-    padding: 16px;
-    text-align: center;
-}
-
-/* .img-portfolio:hover {
-  transform: scale(1.2) rotate(-2deg);
-} */
-
-.contato .icons {
-  text-align: center;
-}
-
-.contato a {
-  color: black;
-  font-size: 4em;
-  transition: text-shadow 1s;
-}
-
-.contato a:active,
-.contato a:hover  {
-  text-decoration: none;
-  text-shadow: 0px 0px 10px rgba(255,255,255,.5);
-}
