@@ -6,7 +6,8 @@
 }
 
 body {
-  background-image: url(http://seatcouros.com.br/wp-content/uploads/2017/11/background-cinza.png);
+
+   background-color: #f3f3f3;
   background-size: auto 100vh; 
   font-family: 'Baloo Chettan 2', cursive;
   height: 100vh;
@@ -95,18 +96,17 @@ a:hover {
 
 .site-subtitle, 
 .site-title {
-  color: black;
   text-align: center;
 }
 
 .site-title {
   font-size: 4em;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Bitter', serif;;
 }
 
 .site-subtitle {
  color: grey;
- font-family: 'Sacramento', cursive;
+ font-family: 'Open Sans', sans-serif;
  font-size: 2em;
  line-height: 1.8em;
 }
@@ -138,7 +138,7 @@ a:hover {
 
 .sobre p {
   color: black;
-  font-family: 'Baloo Chettan 2', cursive;
+  font-family: 'Open Sans', sans-serif;
   text-indent: 1.4em;
   margin-bottom: 1.4em;
   text-align: justify;
@@ -241,8 +241,10 @@ a:hover {
 }
 
 .copyright {
-  font-size: 16px;
-  text-align: center;
+   font-family: 'Bitter', serif;
+    font-size: 20px;
+    padding: 16px;
+    text-align: center;
 }
 
 /* .img-portfolio:hover {
