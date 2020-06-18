@@ -7,9 +7,9 @@
 
 body {
 
-   background-color: #f3f3f3;
-  background-size: auto 100vh; 
-  font-family: 'Baloo Chettan 2', cursive;
+  background-color: #f3f3f3;
+  background-size: auto 50vh; 
+  font-family: 'Bitter', serif;
   height: 100vh;
   font-size: 12px;
 }
@@ -100,14 +100,14 @@ a:hover {
 }
 
 .site-title {
-  font-size: 4em;
+  font-size: 30px;
   font-family: 'Bitter', serif;;
 }
 
 .site-subtitle {
  color: grey;
  font-family: 'Open Sans', sans-serif;
- font-size: 2em;
+ font-size: 20;
  line-height: 1.8em;
 }
 
