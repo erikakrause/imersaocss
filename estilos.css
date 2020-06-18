@@ -255,7 +255,7 @@ a:hover {
 }
 
 .contato a {
-  color: silver;
+  color: black;
   font-size: 4em;
   transition: text-shadow 1s;
 }
