@@ -93,6 +93,13 @@ a:hover {
   }
 }
 
+.principal {
+  background: white;
+  width: 95%;
+  text-align: center;
+  padding: 5%;
+}
+
 .site-subtitle, 
 .site-title {
   text-align: center;
@@ -160,9 +167,8 @@ a:hover {
 
 
 .avatar {
-  background-size: cover;
-  border-radius: 50%;
-  display: block;
+ border-radius: 50%;
+  display: inline;
   height: 200px;
   margin-bottom: 16px;
   position: relative;
