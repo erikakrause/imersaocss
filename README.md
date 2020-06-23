@@ -3,7 +3,7 @@
 ***
 ## Resumo do Projeto
 
-Projeto desenvolvido na semana de Imersão CSS da Alura, com o objetivo de desenvolver uma aplicação de um site Pessoal, contendo informações de Currículo e Projeto Pessoais.
+Projeto desenvolvido na semana de Imersão CSS da Alura, com o objetivo de desenvolver uma aplicação de um site Pessoal, contendo informações de Resumo profissinal e projetoa desenvilvidos.
 
 #### Tecnologia utilizadas: HTML5 e CSS3.
 
