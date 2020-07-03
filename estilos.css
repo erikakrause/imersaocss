@@ -258,3 +258,8 @@ figcaption {
   transition: transform 500ms;
 }
 
+.img-contato{
+  margin: auto;
+  width: 60px;
+  text-align: center; 
+}
